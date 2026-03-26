@@ -1,3 +1,8 @@
+# ----------------------------------------------------------------------------
+# This file is part of the InSARdev project: https://github.com/InSARdev
+#
+# Copyright (c) 2026, Alexey Pechnikov
+# ----------------------------------------------------------------------------
 """
 Minimal NISAR Interferogram Processor — Educational Version
 ============================================================
