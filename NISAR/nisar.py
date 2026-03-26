@@ -135,7 +135,7 @@ unwrapped -= np.polyval(coeffs, np.arange(unwrapped.shape[1]))[None, :]
 
 # --- Plot: coherence, wrapped phase, unwrapped phase (north-up) ---
 import matplotlib.pyplot as plt
-fig, axes = plt.subplots(1, 3, figsize=(18, 8))
+fig, axes = plt.subplots(1, 3, figsize=(18, 4))
 kw = dict(aspect='auto', interpolation='nearest')
 axes[0].imshow(corr[::-1, ::-1], cmap='gray', vmin=0, vmax=1, **kw)
 axes[0].set_title(f'Coherence (mean={corr.mean():.2f})', fontsize=16)
